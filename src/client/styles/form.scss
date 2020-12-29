@@ -1,0 +1,41 @@
+form {
+
+    border: 3px solid #fff;
+    border-radius: 15px;
+    padding: 40px;
+    display: grid;
+    background: #f7f4f4;
+}
+
+input {
+
+    padding: 5px 20px;
+    width: auto;
+    line-height: 16px;
+    margin: 10px 0;
+}
+
+button {
+
+    border: none;
+    background: #8c9ba9;
+    color: #fff;
+    padding: 10px;
+    border-radius: 5px;
+    position: relative;
+    box-sizing: border-box;
+    transition: all 500ms ease; 
+  }
+
+  button:hover {
+
+    color: #fbfdff;
+    border: #adc8cd solid 2px;
+    background: #adc8cd;
+    
+  }
+
+  
+
+
+

@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Test</title>
+
+</head>
+
+<body>
+
+    <header>
+        <div>
+            <img src='/src/client/media/plane.png' width="40px" alt="plane">
+        </div>
+        <div>
+            Travel Planner
+        </div>
+    </header>
+
+    <main>
+        <section>
+            <form class="form">
+                <p> Location :</p>
+                <input id="location" type="text" name="finput" value="" placeholder="enter location here" >
+                <p>Start Date :</p>
+                <input id="indate" type="date" name="input" value=""  >
+                <p>End Date :</p>
+                <input id="enddate" type="date" name="input" value="" >
+                <button id="generate" type="submit"> Generate </button>
+                &nbsp;
+                <div id="result">
+                    <div id="city"></div>
+                    <div id="startDate"></div>
+                    <div id="duration"></div>
+                    <div id="dayToTrip"></div>
+                    <div id="temp"></div>
+                </div>
+                <div> <img id="pic" src="" alt=""> </div>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p> &copy; by sadeen with love 🖤 </p>
+    </footer>
+    <script>
+        // Check that service workers are supported
+        if ('serviceWorker' in navigator) {
+            // Use the window load event to keep the page load performant
+            window.addEventListener('load', () => {
+                navigator.serviceWorker.register('/service-worker.js');
+            });
+        }
+       </script>
+</body>
+
+</html>

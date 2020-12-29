@@ -1,0 +1,54 @@
+body {
+
+    background-image: url('https://landman.me/wp-content/uploads/2019/07/travel-background-png-2.png');
+    background-repeat: round;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    background-attachment:fixed;
+}
+
+main {
+
+    display: inline-flex;
+}
+
+section {
+
+    max-width: 400px;
+    margin: 50px auto;
+
+}
+
+#result {
+
+    line-height: 2em;
+    padding: 10px;
+    border: 1px solid #80808052;
+    border-radius: 15px;
+    margin-bottom: 15px;
+    color: #2b2b2b;
+    background: #e4e4e4;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#pic{
+    
+    width: 100%;
+    border-radius: 15px;
+}
+
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+
+    section {
+        max-width: 800px;
+        margin: 50px auto;
+    }
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+
+}
